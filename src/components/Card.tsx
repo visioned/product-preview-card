@@ -4,7 +4,7 @@ import cart from "../assets/icon-cart.svg";
 
 function Card() {
   return (
-    <section className="p-20  min-h-screen lg:flex ">
+    <section className="justify-center items-center  min-h-screen lg:flex ">
       <div className="bg-white h-[611px] w-[343px] lg:flex lg:h-[450px] lg:w-[600px] font-mont rounded-[10px] items-center justify-center">
         <picture className="">
           <source media="(min-width: 1024px)" srcSet={desktop} />
@@ -34,7 +34,7 @@ function Card() {
             </span>
           </p>
           <button className="h-[47px] w-[295px] lg:w-[245px] rounded-[10px] border bg-[#3C8067] text-white flex items-center justify-center hover:bg-[#1A4031]">
-            <img src={cart} />
+            <img src={cart} alt=""/>
 
             <p className="ml-3">Add to Cart</p>
           </button>
