@@ -12,7 +12,7 @@ function Card() {
           <img
             src={mobile}
             alt="perfume"
-            className="block lg:h-[450px] lg:w-[950px] lg:rounded-bl-[10px] lg:rounded-tl-[10px] lg:rounded-tr-none lg:rounded-br-none rounded-tl-[10px] rounded-tr-[10px]"
+            className="block lg:h-[450px] lg:w-[1100px] lg:rounded-bl-[10px] lg:rounded-tl-[10px] lg:rounded-tr-none lg:rounded-br-none rounded-tl-[10px] rounded-tr-[10px]"
           />
         </picture>
 
